@@ -1,0 +1,60 @@
+$color_1: #8B0000;
+$color_2: #ff9999;
+$col_1_width: 25%;
+$col_2_width: 100%;
+
+.body {
+  height: 100%;
+    
+    }
+
+
+.title {
+  width: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+    background-color: $color_1;
+    border: solid black 5px;
+    }
+
+li {
+  list-style-type: none;
+         text-align: center;
+    
+}
+
+ul {
+  list-style-type: none;
+    
+
+}
+.contact {
+  .row {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    border: solid $color_1 2px;
+    background-color: $color_2;
+      
+    }
+}
+
+.column {
+    
+  float:left;
+  padding: 10px;
+    
+    &.list {
+    width: $col_1_width;
+    height: 100%;
+    overflow: scroll;
+ }
+
+  &.details {
+    width: $col_2_width;
+          
+  }
+}
+
+
